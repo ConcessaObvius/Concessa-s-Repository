@@ -1,0 +1,7 @@
+How to enable repo scope on your GitHub PAT
+
+1. Sign in to GitHub and open Settings → Developer settings → Personal access tokens → Tokens (classic).
+2. Click “Generate new token” (or edit the existing one) and enable the **repo** scopes (repo, repo:status, repo_deployment, public_repo, repo:invite).
+3. Scroll down, set an expiration (or No expiration if you prefer), and click “Generate token.”
+4. Copy the new token value and replace the contents of `secrets/github_pat.txt` on the Mac mini.
+5. Ping me once it’s updated so I can run the initial push + nightly backup cron.

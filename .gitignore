@@ -1,0 +1,21 @@
+# OpenClaw local runtime artifacts
+.openclaw/
+logs/
+
+# Credentials / secrets
+.secrets/
+secrets/
+
+# Virtual environments
+.venv/
+.venv-*/
+
+# Local backups / cache
+backups/
+
+# Media/temp files
+temp.mp4
+*.tmp
+
+# System files
+.DS_Store
